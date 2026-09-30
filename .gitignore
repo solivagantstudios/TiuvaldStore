@@ -1,0 +1,39 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+
+# ==========================================
+# Package Bundles & Binaries
+# ==========================================
+# Packages (.zip / .tar.gz) should be hosted on GitHub Releases, not in git tracking
+*.zip
+*.tar.gz
+*.7z
+
+# ==========================================
+# CI / Validator Tools (Node / Python / Go)
+# ==========================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build & validation caches
+dist/
+build/
+.cache/
+tmp/
+temp/
+
+# Environment tokens (e.g. GitHub Action secrets used locally)
+.env
+*.local
